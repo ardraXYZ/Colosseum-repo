@@ -1,0 +1,6 @@
+[submodule "ARDRAHUB1"]
+	path = ARDRAHUB1
+	url = https://github.com/ardraXYZ/ARDRAHUB.git
+[submodule "ardra"]
+	path = ardra
+	url = https://github.com/ardraXYZ/Ardra.git
