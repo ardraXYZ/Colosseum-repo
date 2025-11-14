@@ -1,0 +1,105 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Ardra Docs",
+  "colors": {
+    "primary": "#22d3ee",
+    "light": "#0ea5e9",
+    "dark": "#020617"
+  },
+  "favicon": "/images/favicon.ico",
+  "appearance": {
+    "defaultColorScheme": "dark"
+  },
+  "background": {
+    "dark": {
+      "type": "radialGradient",
+      "colors": [
+        "#01030a",
+        "#020718",
+        "#041024"
+      ]
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Ardra",
+            "pages": [
+              "index",
+              "getting-started"
+            ]
+          },
+          {
+            "group": "Ardra Points",
+            "pages": [
+              "ardra-points"
+            ]
+          },
+          {
+            "group": "Rewards",
+            "pages": [
+              "rebate-system",
+              "referral-system"
+            ]
+          },
+          {
+            "group": "Bots",
+            "pages": [
+              "bots"
+            ]
+          },
+          {
+            "group": "Legal",
+            "pages": [
+              "legal"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "App",
+          "href": "https://www.ardra.xyz",
+          "icon": "rocket"
+        },
+        {
+          "anchor": "Leaderboard",
+          "href": "https://www.ardra.xyz/leaderboard",
+          "icon": "chart-mixed"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/images/ArdraLogo.png",
+    "dark": "/images/ArdraLogo.png",
+    "height": 40
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Launch Ardra",
+      "href": "https://www.ardra.xyz/login"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/ArdraHub"
+    }
+  }
+}

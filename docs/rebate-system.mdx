@@ -1,0 +1,15 @@
+---
+title: "Rebate system"
+description: "Direct and referral rebates plus campaign kickbacks for Ardra traders."
+---
+
+- **Direct rebate — 10%:** Every dollar in venue fees you generate routes 10% back to you automatically.
+- **Referral rebate — 20%:** The pilot who referred you (and likewise, you for your referrals) receives 20% of the fees generated downstream.
+- **Campaign kickbacks:** When perp DEX campaigns credit Ardra for onboarding users, a portion of those campaign points is redistributed to eligible traders once TGEs or reward unlocks happen.
+- **Boost windows:** Limited-time campaigns can raise rebate percentages or points-per-dollar multipliers for specific venues—watch dashboard announcements for live multipliers.
+
+## Safeguards
+
+- `saveImportedLeaderboard` snapshots every ingest run for audit trails.
+- Only `admin` roles can approve payouts or edit multiplier tables.
+- Any mismatch between venue exports and Ardra ingest triggers Ops alerts for manual review.

@@ -1,0 +1,37 @@
+<svg width="176" height="32" viewBox="0 0 176 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ardraGradientLight" x1="6" y1="4" x2="30" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee" />
+      <stop offset="1" stop-color="#14b8a6" />
+    </linearGradient>
+    <linearGradient id="ardraGlowLight" x1="30" y1="2" x2="38" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a855f7" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(2 2)">
+    <path
+      d="M17 0L4 28h8.4l2.1-5h13l2.1 5H38L25 0z"
+      fill="url(#ardraGradientLight)"
+    />
+    <path
+      d="M15.6 17.5h14.3l-2.5-6.2h-9.3z"
+      fill="#0f172a"
+      opacity="0.85"
+    />
+    <circle cx="34.5" cy="5.5" r="4.2" fill="url(#ardraGlowLight)" opacity="0.9" />
+  </g>
+
+  <text
+    x="56"
+    y="21"
+    font-size="18"
+    font-weight="600"
+    fill="#0f172a"
+    font-family="Inter, 'Segoe UI', 'SF Pro Display', 'Helvetica Neue', system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+  >
+    Ardra
+    <tspan font-weight="400" fill="#475569" dx="6">Docs</tspan>
+  </text>
+</svg>
